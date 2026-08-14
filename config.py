@@ -1,0 +1,7 @@
+APP_NAME = "Verifi"
+
+VERSION = "1.0"
+
+PRIMARY = "#3B82F6"
+
+ACCENT = "#22C55E"
