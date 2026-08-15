@@ -6,7 +6,7 @@ numpy
 
 Pillow
 
-opencv-python
+opencv-python-headless
 
 easyocr
 
