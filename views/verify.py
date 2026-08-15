@@ -1,6 +1,5 @@
 import streamlit as st
 
-from ocr.ocr_engine import extract_text_from_image
 from nlp.preprocessing import clean_text
 from nlp.claim_extractor import extract_claims
 from models.predictor import predict_news
@@ -106,7 +105,8 @@ def show():
                     "📷 Extract Text",
                     use_container_width=True
                 ):
-
+                    from ocr.ocr_engine import extract_text_from_image
+                    
                     with st.spinner(
                         "Extracting text..."
                     ):
