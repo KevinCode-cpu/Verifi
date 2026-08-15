@@ -30,3 +30,5 @@ lxml
 
 python-dotenv
 ddgs
+paddlepaddle
+paddleocr
