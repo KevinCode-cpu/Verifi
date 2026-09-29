@@ -1,7 +1,11 @@
 import json
+import os
 
 import numpy as np
 from PIL import Image
+
+os.environ.setdefault("PADDLE_PDX_EAGER_INIT", "0")
+
 from paddleocr import PaddleOCR
 
 
