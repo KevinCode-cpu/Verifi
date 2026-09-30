@@ -97,7 +97,7 @@ def show():
             with info_col:
 
                 st.info(
-                    "PaddleOCR will extract the text "
+                    "OCR will extract the text "
                     "from this image."
                 )
 
@@ -105,13 +105,12 @@ def show():
                     "📷 Extract Text",
                     use_container_width=True
                 ):
-                    from ocr.ocr_engine import extract_text_from_image
-                    
                     with st.spinner(
                         "Extracting text..."
                     ):
 
                         try:
+                            from ocr.ocr_engine import extract_text_from_image
 
                             extracted_text = (
                                 extract_text_from_image(
